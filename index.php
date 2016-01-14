@@ -23,7 +23,7 @@ $fb->setDefaultAccessToken($token);
 <style>
 
 body {
-    background-repeat: no-repeat;
+    background-repeat: repeat;
 	background-size: 100%;
 }
 .t {text-decoration:none; background-color:black; color:white; padding:14px 14px; border-radius: 8px 8px 8px 8px; font-family:'Comic Sans MS', cursive}
@@ -41,7 +41,7 @@ body {
 
 
 <div align="right" style="margin-top:20px; margin-right:30px">
-<img src="/Head Name.png" width="1000" height="140" />
+<img src="/Head Name.png" width="700" height="120" />
 </div>
 
 

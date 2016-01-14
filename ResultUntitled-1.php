@@ -73,7 +73,7 @@ body {
 
 
 <div align="right" style="margin-top:20px; margin-right:30px">
-<img src="/Head Name.png" width="1000" height="140" />
+<img src="/Head Name.png"  width="700" height="120" />
 </div>
 
 

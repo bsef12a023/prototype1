@@ -27,6 +27,7 @@ body {
 	background-size: 100%;
 }
 
+
 </style>
 
 </head>
@@ -39,7 +40,7 @@ body {
 
 
 <div align="right" style="margin-top:20px; margin-right:30px">
-<img src="/Head Name.png" width="1000" height="140" />
+<img src="/Head Name.png"  width="700" height="120" />
 </div>
 
 
@@ -51,7 +52,7 @@ body {
 	
     <table cellpadding="5">
     <tr>
-    	<td><a href="#"><img style="border:2px solid black" src="/Friends/1.jpg" width="70" height="70" /></a></td><td></td><td></td><td><strong><a href="ArsalUntitled-1.php" style="text-decoration:none; font-size:20px; color:black">Arsal Munir</a></strong></td>
+    	<td><a href="#"><img style="border:2px solid black" src="/Friends/1.jpg" width="70" height="70" /></a></td><td></td><td></td><td><strong><a class="t" href="/ArsalUntitled-1.php" style="text-decoration:none; font-size:20px; color:black">Arsal Munir</a></strong></td>
     </tr>
     
     <tr>

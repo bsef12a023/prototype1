@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 
 session_start();
 require_once __DIR__ . '/facebook-php-sdk-v4-5.0.0/src/Facebook/autoload.php';
@@ -15,7 +15,6 @@ $fb->setDefaultAccessToken($token);
 
 
 ?>
-
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -75,7 +74,7 @@ body {
 
 
 <div align="right" style="margin-top:20px; margin-right:30px">
-<img src="/Head Name.png" width="1000" height="140" />
+<img src="/Head Name.png" width="700" height="120"/>
 </div>
 
 
@@ -83,12 +82,12 @@ body {
 
 	<fieldset style="background-color:#EDE4C9; border-radius:15px"/><legend ><img style="border:2px solid black" src="/Friends/1.jpg" width="120" height="120" /></legend>
     
-    <img src="Capture.PNG" />
+    <img src="/Capture.PNG" />
     <table cellpadding="5" style=" border-radius:15px;font-size:24px; color:#000">
     
     
     <tr>
-    	<td style="font-size:20px">
+    	<td style="font-size:15px">
         	How attractive is this person ?
         </td><td></td><td></td><td></td><td></td><td></td><td></td>
         <td>
@@ -99,7 +98,7 @@ body {
     </tr>
     
     <tr>
-    	<td style="font-size:20px">
+    	<td style="font-size:15px">
         	How logically he is ?
         </td><td></td><td></td><td></td><td></td><td></td><td></td>
         <td>
@@ -110,7 +109,7 @@ body {
     </tr>
     
     <tr>
-    	<td style="font-size:20px">
+    	<td style="font-size:15px">
         	How much he/she follows his heart ?
         </td><td></td><td></td><td></td><td></td><td></td><td></td>
         <td>
@@ -121,7 +120,7 @@ body {
     </tr>
     
     <tr>
-    	<td style="font-size:20px">
+    	<td style="font-size:15px">
         	How practical he is ?
         </td><td></td><td></td><td></td><td></td><td></td><td></td>
         <td>
@@ -132,7 +131,7 @@ body {
     </tr>
     
     <tr>
-    	<td style="font-size:20px">
+    	<td style="font-size:15px">
         	He find it easy even when there is some pressure ?
         </td><td></td><td></td><td></td><td></td><td></td><td></td>
         <td>
@@ -143,7 +142,7 @@ body {
     </tr>
     
     <tr>
-    	<td style="font-size:20px">
+    	<td style="font-size:15px">
         	How much he usually highly motivated and energetic ?
         </td><td></td><td></td><td></td><td></td><td></td><td></td>
         <td>
@@ -154,7 +153,7 @@ body {
     </tr>
     
     <tr>
-    	<td style="font-size:20px">
+    	<td style="font-size:15px">
         	How much he relatively reserved ?
         </td><td></td><td></td><td></td><td></td><td></td><td></td>
         <td>
@@ -165,7 +164,7 @@ body {
     </tr>
     
     <tr>
-    	<td style="font-size:20px">
+    	<td style="font-size:15px">
         	How much he/she is social ?
         </td><td></td><td></td><td></td><td></td><td></td><td></td>
         <td>
@@ -179,7 +178,7 @@ body {
     </table>
     
     <br />
-    <a class="t" href="/ResultUntitled-1.php" style="font-size:30px; font-family:MOTOR">SUMBIT</a>
+    <a class="t" href="/ResultUntitled-1.php" style="font-size:30px; font-family:MOTOR">SUBMIT</a>
 
 </div>
 
