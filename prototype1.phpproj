@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Name>prototype1</Name>
+    <ProjectGuid>1754e83f-482e-491a-bc48-030954a77063</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>prototype1</RootNamespace>
+    <ProjectTypeGuids>{A0786B88-2ADB-4C21-ABE8-AA2D79766269}</ProjectTypeGuids>
+    <AssemblyName>prototype1</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <IncludeDebugInformation>true</IncludeDebugInformation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <IncludeDebugInformation>false</IncludeDebugInformation>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="ArsalUntitled-1.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\src\Facebook\Authentication\AccessToken.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\src\Facebook\Authentication\AccessTokenMetadata.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\src\Facebook\Authentication\OAuth2Client.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\src\Facebook\autoload.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\src\Facebook\Exceptions\FacebookAuthenticationException.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\src\Facebook\Exceptions\FacebookAuthorizationException.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\src\Facebook\Exceptions\FacebookClientException.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\src\Facebook\Exceptions\FacebookOtherException.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\src\Facebook\Exceptions\FacebookResponseException.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\src\Facebook\Exceptions\FacebookSDKException.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\src\Facebook\Exceptions\FacebookServerException.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\src\Facebook\Exceptions\FacebookThrottleException.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\src\Facebook\Facebook.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\src\Facebook\FacebookApp.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\src\Facebook\FacebookBatchRequest.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\src\Facebook\FacebookBatchResponse.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\src\Facebook\FacebookClient.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\src\Facebook\FacebookRequest.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\src\Facebook\FacebookResponse.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\src\Facebook\FileUpload\FacebookFile.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\src\Facebook\FileUpload\FacebookVideo.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\src\Facebook\FileUpload\Mimetypes.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\src\Facebook\GraphNodes\Collection.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\src\Facebook\GraphNodes\GraphAchievement.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\src\Facebook\GraphNodes\GraphAlbum.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\src\Facebook\GraphNodes\GraphApplication.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\src\Facebook\GraphNodes\GraphCoverPhoto.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\src\Facebook\GraphNodes\GraphEdge.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\src\Facebook\GraphNodes\GraphEvent.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\src\Facebook\GraphNodes\GraphGroup.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\src\Facebook\GraphNodes\GraphList.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\src\Facebook\GraphNodes\GraphLocation.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\src\Facebook\GraphNodes\GraphNode.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\src\Facebook\GraphNodes\GraphNodeFactory.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\src\Facebook\GraphNodes\GraphObject.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\src\Facebook\GraphNodes\GraphObjectFactory.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\src\Facebook\GraphNodes\GraphPage.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\src\Facebook\GraphNodes\GraphPicture.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\src\Facebook\GraphNodes\GraphSessionInfo.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\src\Facebook\GraphNodes\GraphUser.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\src\Facebook\Helpers\FacebookCanvasHelper.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\src\Facebook\Helpers\FacebookJavaScriptHelper.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\src\Facebook\Helpers\FacebookPageTabHelper.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\src\Facebook\Helpers\FacebookRedirectLoginHelper.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\src\Facebook\Helpers\FacebookSignedRequestFromInputHelper.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\src\Facebook\HttpClients\FacebookCurl.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\src\Facebook\HttpClients\FacebookCurlHttpClient.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\src\Facebook\HttpClients\FacebookGuzzleHttpClient.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\src\Facebook\HttpClients\FacebookHttpClientInterface.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\src\Facebook\HttpClients\FacebookStream.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\src\Facebook\HttpClients\FacebookStreamHttpClient.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\src\Facebook\Http\GraphRawResponse.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\src\Facebook\Http\RequestBodyInterface.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\src\Facebook\Http\RequestBodyMultipart.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\src\Facebook\Http\RequestBodyUrlEncoded.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\src\Facebook\PersistentData\FacebookMemoryPersistentDataHandler.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\src\Facebook\PersistentData\FacebookSessionPersistentDataHandler.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\src\Facebook\PersistentData\PersistentDataInterface.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\src\Facebook\PseudoRandomString\McryptPseudoRandomStringGenerator.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\src\Facebook\PseudoRandomString\OpenSslPseudoRandomStringGenerator.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\src\Facebook\PseudoRandomString\PseudoRandomStringGeneratorInterface.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\src\Facebook\PseudoRandomString\PseudoRandomStringGeneratorTrait.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\src\Facebook\PseudoRandomString\UrandomPseudoRandomStringGenerator.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\src\Facebook\SignedRequest.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\src\Facebook\Url\FacebookUrlDetectionHandler.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\src\Facebook\Url\FacebookUrlManipulator.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\src\Facebook\Url\UrlDetectionInterface.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\tests\Authentication\AccessTokenMetadata.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\tests\Authentication\AccessTokenTest.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\tests\Authentication\FooFacebookClientForOAuth2Test.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\tests\Authentication\OAuth2ClientTest.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\tests\bootstrap.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\tests\Exceptions\FacebookResponseExceptionTest.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\tests\FacebookAppTest.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\tests\FacebookBatchRequestTest.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\tests\FacebookBatchResponseTest.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\tests\FacebookClientTest.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\tests\FacebookRequestTest.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\tests\FacebookResponseTest.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\tests\FacebookTest.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\tests\FileUpload\FacebookFileTest.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\tests\FileUpload\MimetypesTest.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\tests\GraphNodes\AbstractGraphNode.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\tests\GraphNodes\CollectionTest.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\tests\GraphNodes\GraphAchievementTest.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\tests\GraphNodes\GraphAlbumTest.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\tests\GraphNodes\GraphEdgeTest.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\tests\GraphNodes\GraphEventTest.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\tests\GraphNodes\GraphGroupTest.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\tests\GraphNodes\GraphNodeFactoryTest.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\tests\GraphNodes\GraphNodeTest.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\tests\GraphNodes\GraphObjectFactoryTest.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\tests\GraphNodes\GraphPageTest.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\tests\GraphNodes\GraphSessionInfoTest.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\tests\GraphNodes\GraphUserTest.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\tests\Helpers\FacebookCanvasHelperTest.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\tests\Helpers\FacebookJavaScriptHelperTest.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\tests\Helpers\FacebookPageTabHelperTest.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\tests\Helpers\FacebookRedirectLoginHelperTest.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\tests\Helpers\FacebookSignedRequestFromInputHelperTest.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\tests\HttpClients\AbstractTestHttpClient.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\tests\HttpClients\FacebookCurlHttpClientTest.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\tests\HttpClients\FacebookGuzzleHttpClientTest.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\tests\HttpClients\FacebookStreamHttpClientTest.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\tests\Http\GraphRawResponseTest.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\tests\Http\RequestBodyMultipartTest.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\tests\Http\RequestUrlEncodedTest.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\tests\PersistentData\FacebookMemoryPersistentDataHandlerTest.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\tests\PersistentData\FacebookSessionPersistentDataHandlerTest.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\tests\PseudoRandomString\McryptPseudoRandomStringGeneratorTest.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\tests\PseudoRandomString\OpenSslPseudoRandomStringGeneratorTest.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\tests\PseudoRandomString\PseudoRandomStringGeneratorTraitTest.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\tests\PseudoRandomString\UrandomPseudoRandomStringGeneratorTest.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\tests\SignedRequestTest.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\tests\Url\FacebookUrlDetectionHandlerTest.php" />
+    <Compile Include="facebook-php-sdk-v4-5.0.0\tests\Url\FacebookUrlManipulatorTest.php" />
+    <Compile Include="FriendUntitled-1.php" />
+    <Compile Include="index.php" />
+    <Compile Include="MenuUntitled-1.php" />
+    <Compile Include="ResultUntitled-1.php" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="facebook-php-sdk-v4-5.0.0\" />
+    <Folder Include="facebook-php-sdk-v4-5.0.0\docs\" />
+    <Folder Include="facebook-php-sdk-v4-5.0.0\src\" />
+    <Folder Include="facebook-php-sdk-v4-5.0.0\src\Facebook\" />
+    <Folder Include="facebook-php-sdk-v4-5.0.0\src\Facebook\Authentication\" />
+    <Folder Include="facebook-php-sdk-v4-5.0.0\src\Facebook\Exceptions\" />
+    <Folder Include="facebook-php-sdk-v4-5.0.0\src\Facebook\FileUpload\" />
+    <Folder Include="facebook-php-sdk-v4-5.0.0\src\Facebook\GraphNodes\" />
+    <Folder Include="facebook-php-sdk-v4-5.0.0\src\Facebook\Helpers\" />
+    <Folder Include="facebook-php-sdk-v4-5.0.0\src\Facebook\HttpClients\" />
+    <Folder Include="facebook-php-sdk-v4-5.0.0\src\Facebook\HttpClients\certs\" />
+    <Folder Include="facebook-php-sdk-v4-5.0.0\src\Facebook\Http\" />
+    <Folder Include="facebook-php-sdk-v4-5.0.0\src\Facebook\PersistentData\" />
+    <Folder Include="facebook-php-sdk-v4-5.0.0\src\Facebook\PseudoRandomString\" />
+    <Folder Include="facebook-php-sdk-v4-5.0.0\src\Facebook\Url\" />
+    <Folder Include="facebook-php-sdk-v4-5.0.0\tests\" />
+    <Folder Include="facebook-php-sdk-v4-5.0.0\tests\Authentication\" />
+    <Folder Include="facebook-php-sdk-v4-5.0.0\tests\Exceptions\" />
+    <Folder Include="facebook-php-sdk-v4-5.0.0\tests\FileUpload\" />
+    <Folder Include="facebook-php-sdk-v4-5.0.0\tests\GraphNodes\" />
+    <Folder Include="facebook-php-sdk-v4-5.0.0\tests\Helpers\" />
+    <Folder Include="facebook-php-sdk-v4-5.0.0\tests\HttpClients\" />
+    <Folder Include="facebook-php-sdk-v4-5.0.0\tests\Http\" />
+    <Folder Include="facebook-php-sdk-v4-5.0.0\tests\PersistentData\" />
+    <Folder Include="facebook-php-sdk-v4-5.0.0\tests\PseudoRandomString\" />
+    <Folder Include="facebook-php-sdk-v4-5.0.0\tests\Url\" />
+    <Folder Include="Friends\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="1.jpg" />
+    <Content Include="2008_Play_Now_button.png" />
+    <Content Include="back.jpg" />
+    <Content Include="Capture.PNG" />
+    <Content Include="d.jpg" />
+    <Content Include="facebook-php-sdk-v4-5.0.0\.gitignore" />
+    <Content Include="facebook-php-sdk-v4-5.0.0\.scrutinizer.yml" />
+    <Content Include="facebook-php-sdk-v4-5.0.0\.travis.yml" />
+    <Content Include="facebook-php-sdk-v4-5.0.0\CHANGELOG.md" />
+    <Content Include="facebook-php-sdk-v4-5.0.0\composer.json" />
+    <Content Include="facebook-php-sdk-v4-5.0.0\CONTRIBUTING.md" />
+    <Content Include="facebook-php-sdk-v4-5.0.0\docs\AccessToken.fbmd" />
+    <Content Include="facebook-php-sdk-v4-5.0.0\docs\example_access_token_from_canvas.fbmd" />
+    <Content Include="facebook-php-sdk-v4-5.0.0\docs\example_access_token_from_javascript.fbmd" />
+    <Content Include="facebook-php-sdk-v4-5.0.0\docs\example_access_token_from_page_tab.fbmd" />
+    <Content Include="facebook-php-sdk-v4-5.0.0\docs\example_batch_request.fbmd" />
+    <Content Include="facebook-php-sdk-v4-5.0.0\docs\example_batch_upload.fbmd" />
+    <Content Include="facebook-php-sdk-v4-5.0.0\docs\example_facebook_login.fbmd" />
+    <Content Include="facebook-php-sdk-v4-5.0.0\docs\example_pagination_basic.fbmd" />
+    <Content Include="facebook-php-sdk-v4-5.0.0\docs\example_post_links.fbmd" />
+    <Content Include="facebook-php-sdk-v4-5.0.0\docs\example_retrieve_user_profile.fbmd" />
+    <Content Include="facebook-php-sdk-v4-5.0.0\docs\example_upload_photo.fbmd" />
+    <Content Include="facebook-php-sdk-v4-5.0.0\docs\example_upload_video.fbmd" />
+    <Content Include="facebook-php-sdk-v4-5.0.0\docs\Facebook.fbmd" />
+    <Content Include="facebook-php-sdk-v4-5.0.0\docs\FacebookApp.fbmd" />
+    <Content Include="facebook-php-sdk-v4-5.0.0\docs\FacebookBatchRequest.fbmd" />
+    <Content Include="facebook-php-sdk-v4-5.0.0\docs\FacebookBatchResponse.fbmd" />
+    <Content Include="facebook-php-sdk-v4-5.0.0\docs\FacebookCanvasHelper.fbmd" />
+    <Content Include="facebook-php-sdk-v4-5.0.0\docs\FacebookClient.fbmd" />
+    <Content Include="facebook-php-sdk-v4-5.0.0\docs\FacebookFile.fbmd" />
+    <Content Include="facebook-php-sdk-v4-5.0.0\docs\FacebookJavaScriptHelper.fbmd" />
+    <Content Include="facebook-php-sdk-v4-5.0.0\docs\FacebookPageTabHelper.fbmd" />
+    <Content Include="facebook-php-sdk-v4-5.0.0\docs\FacebookRedirectLoginHelper.fbmd" />
+    <Content Include="facebook-php-sdk-v4-5.0.0\docs\FacebookRequest.fbmd" />
+    <Content Include="facebook-php-sdk-v4-5.0.0\docs\FacebookResponse.fbmd" />
+    <Content Include="facebook-php-sdk-v4-5.0.0\docs\FacebookResponseException.fbmd" />
+    <Content Include="facebook-php-sdk-v4-5.0.0\docs\FacebookSDKException.fbmd" />
+    <Content Include="facebook-php-sdk-v4-5.0.0\docs\FacebookVideo.fbmd" />
+    <Content Include="facebook-php-sdk-v4-5.0.0\docs\GraphEdge.fbmd" />
+    <Content Include="facebook-php-sdk-v4-5.0.0\docs\GraphNode.fbmd" />
+    <Content Include="facebook-php-sdk-v4-5.0.0\docs\PersistentDataInterface.fbmd" />
+    <Content Include="facebook-php-sdk-v4-5.0.0\docs\PseudoRandomStringGeneratorInterface.fbmd" />
+    <Content Include="facebook-php-sdk-v4-5.0.0\docs\sdk_downloads.fbmd" />
+    <Content Include="facebook-php-sdk-v4-5.0.0\docs\sdk_getting_started.fbmd" />
+    <Content Include="facebook-php-sdk-v4-5.0.0\docs\sdk_landing_page.fbmd" />
+    <Content Include="facebook-php-sdk-v4-5.0.0\docs\sdk_reference.fbmd" />
+    <Content Include="facebook-php-sdk-v4-5.0.0\docs\SignedRequest.fbmd" />
+    <Content Include="facebook-php-sdk-v4-5.0.0\docs\UrlDetectionInterface.fbmd" />
+    <Content Include="facebook-php-sdk-v4-5.0.0\LICENSE" />
+    <Content Include="facebook-php-sdk-v4-5.0.0\phpunit.xml.dist" />
+    <Content Include="facebook-php-sdk-v4-5.0.0\README.md" />
+    <Content Include="facebook-php-sdk-v4-5.0.0\src\Facebook\HttpClients\certs\DigiCertHighAssuranceEVRootCA.pem" />
+    <Content Include="facebook-php-sdk-v4-5.0.0\tests\FacebookTestCredentials.php.dist" />
+    <Content Include="facebook-php-sdk-v4-5.0.0\tests\foo.txt" />
+    <Content Include="Friends\1.jpg" />
+    <Content Include="Friends\10.jpg" />
+    <Content Include="Friends\2.jpg" />
+    <Content Include="Friends\3.jpg" />
+    <Content Include="Friends\4.jpg" />
+    <Content Include="Friends\5.jpg" />
+    <Content Include="Friends\6.jpg" />
+    <Content Include="Friends\7.jpg" />
+    <Content Include="Friends\8.jpg" />
+    <Content Include="Friends\9.jpg" />
+    <Content Include="Head Name.png" />
+    <Content Include="Main Background.jpg" />
+    <Content Include="MainLogo.png" />
+    <Content Include="result.jpg" />
+  </ItemGroup>
+</Project>
