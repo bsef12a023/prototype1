@@ -51,39 +51,39 @@ body {
 	
     <table cellpadding="5">
     <tr>
-    	<td><a href="#"><img style="border:2px solid black" src="Friends/1.jpg" width="70" height="70" /></a></td><td></td><td></td><td><strong><a href="ArsalUntitled-1.php" style="text-decoration:none; font-size:20px; color:black">Arsal Munir</a></strong></td>
+    	<td><a href="#"><img style="border:2px solid black" src="/Friends/1.jpg" width="70" height="70" /></a></td><td></td><td></td><td><strong><a href="ArsalUntitled-1.php" style="text-decoration:none; font-size:20px; color:black">Arsal Munir</a></strong></td>
     </tr>
     
     <tr>
-    	<td><a href="#"><img style="border:2px solid black" src="Friends/2.jpg" width="70" height="70" /></a></td><td></td><td></td><td><strong><a href="#" style="text-decoration:none; font-size:20px; color:black">Hassan Abdur Rauf</a></strong></td>
+    	<td><a href="#"><img style="border:2px solid black" src="/Friends/2.jpg" width="70" height="70" /></a></td><td></td><td></td><td><strong><a href="#" style="text-decoration:none; font-size:20px; color:black">Hassan Abdur Rauf</a></strong></td>
     </tr>
     
     <tr>
-    	<td><a href="#"><img style="border:2px solid black" src="Friends/4.jpg" width="70" height="70" /></a></td><td></td><td></td><td><strong><a href="#" style="text-decoration:none; font-size:20px; color:black">Sameer Rana</a></strong></td>
+    	<td><a href="#"><img style="border:2px solid black" src="/Friends/4.jpg" width="70" height="70" /></a></td><td></td><td></td><td><strong><a href="#" style="text-decoration:none; font-size:20px; color:black">Sameer Rana</a></strong></td>
     </tr>
     
     <tr>
-    	<td><a href="#"><img style="border:2px solid black" src="Friends/5.jpg" width="70" height="70" /></a></td><td></td><td></td><td><strong><a href="#" style="text-decoration:none; font-size:20px; color:black">Muhammad Ahmed</a></strong></td>
+    	<td><a href="#"><img style="border:2px solid black" src="/Friends/5.jpg" width="70" height="70" /></a></td><td></td><td></td><td><strong><a href="#" style="text-decoration:none; font-size:20px; color:black">Muhammad Ahmed</a></strong></td>
     </tr>
     
     <tr>
-    	<td><a href="#"><img style="border:2px solid black" src="Friends/6.jpg" width="70" height="70" /></a></td><td></td><td></td><td><strong><a href="#" style="text-decoration:none; font-size:20px; color:black">Muhammad Anas</a></strong></td>
+    	<td><a href="#"><img style="border:2px solid black" src="/Friends/6.jpg" width="70" height="70" /></a></td><td></td><td></td><td><strong><a href="#" style="text-decoration:none; font-size:20px; color:black">Muhammad Anas</a></strong></td>
     </tr>
     
     <tr>
-    	<td><a href="#"><img style="border:2px solid black" src="Friends/7.jpg" width="70" height="70" /></a></td><td></td><td></td><td><strong><a href="#" style="text-decoration:none; font-size:20px; color:black">Zain Qadir</a></strong></td>
+    	<td><a href="#"><img style="border:2px solid black" src="/Friends/7.jpg" width="70" height="70" /></a></td><td></td><td></td><td><strong><a href="#" style="text-decoration:none; font-size:20px; color:black">Zain Qadir</a></strong></td>
     </tr>
     
     <tr>
-    	<td><a href="#"><img style="border:2px solid black" src="Friends/8.jpg" width="70" height="70" /></a></td><td></td><td></td><td><strong><a href="#" style="text-decoration:none; font-size:20px; color:black">Talha Mehmood</a></strong></td>
+    	<td><a href="#"><img style="border:2px solid black" src="/Friends/8.jpg" width="70" height="70" /></a></td><td></td><td></td><td><strong><a href="#" style="text-decoration:none; font-size:20px; color:black">Talha Mehmood</a></strong></td>
     </tr>
     
     <tr>
-    	<td><a href="#"><img style="border:2px solid black" src="Friends/9.jpg" width="70" height="70" /></a></td><td></td><td></td><td><strong><a href="#" style="text-decoration:none; font-size:20px; color:black">Zeeshan Akhtar</a></strong></td>
+    	<td><a href="#"><img style="border:2px solid black" src="/Friends/9.jpg" width="70" height="70" /></a></td><td></td><td></td><td><strong><a href="#" style="text-decoration:none; font-size:20px; color:black">Zeeshan Akhtar</a></strong></td>
     </tr>
     
     <tr>
-    	<td><a href="#"><img style="border:2px solid black" src="Friends/10.jpg" width="70" height="70" /></a></td><td></td><td></td><td><strong><a href="#" style="text-decoration:none; font-size:20px; color:black">Ahmad Rana</a></strong></td>
+    	<td><a href="#"><img style="border:2px solid black" src="/Friends/10.jpg" width="70" height="70" /></a></td><td></td><td></td><td><strong><a href="#" style="text-decoration:none; font-size:20px; color:black">Ahmad Rana</a></strong></td>
     </tr>
     
     </table>
